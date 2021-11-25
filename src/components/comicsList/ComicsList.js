@@ -13,7 +13,6 @@ const ComicsList = () => {
     const [newItemLoading, setNewItemLoading] = useState(false);
     const [offset, setOffset] = useState(0);
     const [comicsEnded, setComicsEnded] = useState(false);
-
     const {loading, error, getAllComics} = useMarvelService();
     
 
@@ -21,7 +20,7 @@ const ComicsList = () => {
         onRequest(offset, true);
     }, [])
 
-    console.log(comicsList);
+
     
 
     const onRequest = (offset, initial) => {
