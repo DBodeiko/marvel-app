@@ -82,8 +82,7 @@ const ComicsList = () => {
 
 
 
-/*     const errorMessage = error ? <ErrorMessage/> : null;
-    const spinner = loading && !newItemLoading ? <Spinner/> : null; */
+
 
     
 

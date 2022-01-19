@@ -121,9 +121,6 @@ const CharList = (props) => {
     
 
 
-/*     const errorMessage = error ? <ErrorMessage/> : null;
-    const spinner = loading && !newItemLoading ? <Spinner/> : null; */
-
     const elements = useMemo (() => {
         return setContent(process, () => renderItems(charList), newItemLoading);
         // eslint-disable-next-line
